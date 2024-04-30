@@ -1,7 +1,7 @@
   pipeline {
     agent any
     environment {
-        ECR_REGISTRY = "877540899436.dkr.ecr.us-east-1.amazonaws.com"
+        ECR_REGISTRY = "<aws_account_id>.dkr.ecr.us-east-1.amazonaws.com"
         //ECR_REGISTRY = "<aws_account_id>.dkr.ecr.us-east-1.amazonaws.com"  
         APP_REPO_NAME= "hasan05/to-do-webapp"
     }
